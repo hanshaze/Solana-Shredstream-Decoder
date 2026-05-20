@@ -4,6 +4,37 @@ This is a performance-focused Rust client that decodes Solana shred packets dire
 
 This decoder deserializes `buy`, `create` transactions from Pumpfun and token migrations from Pumpfun -> Raydium when the `initialize2` instruction is involved and the migration pubkey (`39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg`) is also involved.
  
+## 🧠 Advanced Trading Platforms
+
+ <a href="https://trade.padre.gg/rk/423116"><img src="./pumpfunterminal.svg" alt="Pump.fun Terminal" width="80" height="30"></a>  [**Padre (pump.fun terminal)** — `advanced trading interface / pro tools`](https://trade.padre.gg/rk/423116)
+* Enhanced execution controls
+* Additional trading utilities
+  → [Open Padre](https://trade.padre.gg/rk/423116)
+
+### 🖥️ Low-Latency Infrastructure (Critical for MEV)
+
+**Recommended VPS + ShredStream Setup** — `low latency trading server / solana bot hosting`
+
+For best performance, run the bot on a [**New York-based low-latency VPS**](https://app.tradingvps.io/aff.php?aff=22) together with [**ShredStream**](https://www.shredstream.com/?ref=ZZXK7TPB) for faster Solana data access and execution:
+
+→[Try Tradingvps](https://app.tradingvps.io/aff.php?aff=22)
+
+→ [Try shredstream](https://www.shredstream.com/?ref=ZZXK7TPB)
+
+* ⚡ Lower latency = faster execution
+* 🔁 More reliable transaction inclusion
+* 📡 Faster Solana shred/transaction streaming
+* 🧩 Better performance for MEV / sniping strategies
+
+---
+
+### 📈 Why This Stack Matters
+
+Using this setup improves:
+
+* Transaction speed (critical for sniping)
+* Fill rates & execution reliability
+* Access to early opportunities (alpha)
 # Features:
 
 - **Optimized-advanced UDP buffer**  – To prevent packet loss, the application binds a raw UDP socket and configures `SO_RCVBUF` to a larger size, allowing it to handle bursts of incoming shreds without dropping packets.
